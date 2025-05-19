@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    string str;
+    cin >> str;
+    reverse(str.begin(),str.end());
+    transform(str.begin(),str.end(),str.begin(),::tolower);
+    cout << str;
+    return 0;
+}
